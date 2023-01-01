@@ -18,3 +18,9 @@ Mit integriertem Updater, der bei neuerer Version auf dem Server direkt die Bash
 Garantiert lauffähig auf Debian und Ubuntu und alle Zwischendistributionen (Xubuntu, Kubuntu, ...)
 
 Nur in Deutsch verfügbar, Umbau auf anderen Sprachen auf Anfrage. Only available in German, conversion to other languages on request.
+
+
+STARTEN:
+./texter.sh name --> es entsteht unter script-data/texte, als auch unter script-data/telegram ein Ordner mit diesem Namen. Telegram Chat-ID unter telegram/name.txt setzen und die Texte zeilenweise unter texte/name.txt eingeben. Nach dieser Einrichtung geht eine Nachricht aus der texte/name.txt an die jeweilige Chat-ID.
+
+Automation via Crontab möglich.
